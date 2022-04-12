@@ -1,0 +1,71 @@
+
+
+.headercontent{
+    width: 100%;
+    padding: 50px;
+    background-color: #6c757d;
+}
+.headercontent>div{
+    background-color: #f8f9fa;
+    height: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-weight: 25;
+
+}
+
+.maincontent{
+    background-color: #6c757d;
+    width: 100%;
+    padding: 50px;
+}
+
+.firstrow,
+.secondrow{
+
+    background-color: #f8f9fa;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.firstrow{
+    margin-bottom: 50px;
+
+}
+.secondrow{
+    background-color: #6c757d;
+}
+.playercards{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.playercards>p{
+    color: green;
+}
+.vs{
+    width: 10%;
+    background-color: #6c757d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondrow>div{
+    background-color: #f8f9fa;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
